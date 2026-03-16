@@ -1,0 +1,34 @@
+aid: apache-wicket
+name: Apache Wicket
+description: >-
+  Apache Wicket is a component-based web application framework for Java that provides a clean separation of markup and logic with a stateful component model. It enables developers to build web applications using pure Java and HTML.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Web Framework
+  - Component-Based
+  - Java
+  - Web Applications
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-wicket/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-wicket:apache-wicket
+    name: Apache Wicket
+    description: >-
+      Wicket provides a Java component-based web framework API with a stateful programming model, pure HTML templates, built-in Ajax support, and an extensible component hierarchy for building type-safe web applications.
+    humanURL: https://wicket.apache.org/learn/
+    tags:
+      - Java
+      - Component Framework
+      - Web
+    properties:
+      - type: Documentation
+        url: https://wicket.apache.org/learn/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
