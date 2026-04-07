@@ -7,10 +7,10 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Web Framework
   - Component-Based
   - Java
   - Web Applications
+  - Web Framework
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -23,8 +23,8 @@ apis:
       Wicket provides a Java component-based web framework API with a stateful programming model, pure HTML templates, built-in Ajax support, and an extensible component hierarchy for building type-safe web applications.
     humanURL: https://wicket.apache.org/learn/
     tags:
-      - Java
       - Component Framework
+      - Java
       - Web
     properties:
       - type: Documentation
