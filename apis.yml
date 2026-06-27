@@ -42,7 +42,7 @@ apis:
         url: https://wicket.apache.org/learn/
       - type: APIReference
         url: https://ci.apache.org/projects/wicket/apidocs/10.x/
-      - type: SDK
+      - type: SDKs
         url: https://search.maven.org/search?q=org.apache.wicket
         title: Maven Java SDK
 common:
