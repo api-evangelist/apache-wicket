@@ -46,6 +46,10 @@ apis:
         url: https://search.maven.org/search?q=org.apache.wicket
         title: Maven Java SDK
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-wicket-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-wicket-domain-security.yml
   - type: GitHubRepository
     url: https://github.com/apache/wicket
   - type: Documentation
@@ -60,6 +64,8 @@ common:
     url: https://wicket.apache.org/help/
   - type: TermsOfService
     url: https://www.apache.org/licenses/
+  - url: https://wicket.apache.org/atom.xml
+    type: Blog
   - type: Features
     data:
       - name: Stateful Component Model
