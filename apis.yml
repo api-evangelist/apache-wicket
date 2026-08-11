@@ -58,6 +58,15 @@ apis:
         url: https://search.maven.org/search?q=org.apache.wicket
         title: Maven Java SDK
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/wicket/issues
+  - type: SecurityPolicy
+    url: https://github.com/apache/wicket/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/wicket/blob/master/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-wicket-vulnerability-disclosure.yml
   - type: DomainSecurity
