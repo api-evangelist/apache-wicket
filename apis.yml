@@ -27,6 +27,13 @@ tags:
   - Java
   - Web Applications
   - Web Framework
+  - Open-Source
+  - AJAX
+tags_raw:
+  - Component-Based
+  - Java
+  - Web Applications
+  - Web Framework
   - Open Source
   - Ajax
 created: '2026-03-16'
@@ -45,6 +52,11 @@ apis:
       CheckBox), containers (RepeatingView, ListView, DataView), feedback, and navigation.
     humanURL: https://wicket.apache.org/learn/
     tags:
+      - Java
+      - Components
+      - Web Framework
+      - AJAX
+    tags_raw:
       - Java
       - Components
       - Web Framework
