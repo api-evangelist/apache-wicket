@@ -83,6 +83,8 @@ apis:
         url: https://search.maven.org/search?q=org.apache.wicket
         title: Maven Java SDK
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/wicket/issues
   - type: SecurityPolicy
