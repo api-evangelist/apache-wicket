@@ -1,4 +1,4 @@
-# Apache Wicket (apache-wicket)
+# Apache Wicket
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,78 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache Wicket is a component-based web application framework for Java providing a stateful server-side component model with pure Java and HTML, no XML configuration, built-in Ajax, type-safe URLs, and deep testability.
+Apache Wicket is a component-based web application framework for Java that provides a clean separation of markup and logic with a stateful component model. It enables developers to build web applications using pure Java and HTML, without XML configuration. Wicket's stateful model stores component state on the server side while providing Ajax integration, type-safe page parameters, and deep testability. It is maintained by the Apache Software Foundation.
 
-**URL:** [https://wicket.apache.org/](https://wicket.apache.org/)
+**Areas:** Component-Based · Java · Web Applications · Web Framework · Open Source · AJAX
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Wicket on APIs.io
 
-## Tags:
+Everything profiled for Apache Wicket is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-wicket/](https://apis.io/providers/apache-wicket/)** — or go straight to one of the APIs or properties below.
 
- - Component-Based, Java, Web Applications, Web Framework, Open Source, Ajax
+### APIs (1)
 
-## Timestamps
+- [Apache Wicket Component API](https://apis.io/apis/apache-wicket/apache-wicket-component-api/) — The Wicket Component API provides the core Java classes for building web UIs. Pages extend WebPage, components extend Panel, Form, Link, Button, and other…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Wicket Component API
-Java classes for building web UIs with Pages, Panels, Forms, Links, and the IModel<T> type-safe data binding system, plus Ajax partial page updates.
+#### Security (2)
 
-**Human URL:** [https://wicket.apache.org/learn/](https://wicket.apache.org/learn/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Wicket Domain Security](https://apis.io/security/apache-wicket/apache-wicket-domain-security/)
+- [Apache Wicket Vulnerability Disclosure](https://apis.io/security/apache-wicket/apache-wicket-vulnerability-disclosure/)
 
- - Java, Components, Web Framework, Ajax
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
+- [Apache Wicket Plans Pricing](https://apis.io/plans/apache-wicket/apache-wicket-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apache Wicket Rate Limits](https://apis.io/rate-limits/apache-wicket/apache-wicket-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Wicket Finops](https://apis.io/finops/apache-wicket/apache-wicket-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://wicket.apache.org/learn/)
-- [APIReference](https://ci.apache.org/projects/wicket/apidocs/10.x/)
-- [Maven Java SDK](https://search.maven.org/search?q=org.apache.wicket)
-
-## Common Properties
-
-- [GitHubRepository](https://github.com/apache/wicket)
-- [Documentation](https://wicket.apache.org/learn/)
-- [Portal](https://wicket.apache.org/)
-- [GettingStarted](https://wicket.apache.org/start/quickstart.html)
-- [ReleaseNotes](https://github.com/apache/wicket/releases)
+- [Getting started](https://wicket.apache.org/start/quickstart.html)
 - [Support](https://wicket.apache.org/help/)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Blog](https://wicket.apache.org/atom.xml)
+- [Terms of service](https://www.apache.org/licenses/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Stateful Component Model | Server-side stateful component model with automatic state serialization. |
-| Pure Java and HTML | No JSP or XML mappings - just Java classes and plain HTML templates. |
-| Type-Safe URLs | Type-safe page parameters using PageParameters with automatic encoding. |
-| Ajax Integration | Built-in Ajax behaviors for partial page updates without JavaScript coding. |
-| Testability | WicketTester for comprehensive unit testing without a running servlet container. |
-| Security | Built-in CSRF protection, authorization strategies, and secure page parameters. |
+**Kin Score 26.3** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Enterprise Java Web Applications | Complex business applications with rich server-side state management. |
-| Form-Intensive Applications | Data entry applications with complex validation and type conversion. |
-| Content Management Systems | CMS backends with hierarchical content management and editorial workflows. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Spring Framework | SpringComponentInjector for Spring bean injection into Wicket components. |
-| CDI | CDI/Weld integration for Jakarta EE dependency injection. |
-| Hibernate | Hibernate model integration for domain objects bound to Wicket components. |
-| Bootstrap | Wicket Bootstrap library for Bootstrap CSS integration. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-wicket/](https://apis.io/providers/apache-wicket/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Wicket: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-wicket/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
